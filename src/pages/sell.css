@@ -1,0 +1,227 @@
+/* Sell Your Car Page Styles */
+.sell-car {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+  color: #fff;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.sell-car h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+}
+
+.sell-car p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* Car Details Section */
+.car-details {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 2.5rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.car-details h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #FFD700;
+  text-align: center;
+  position: relative;
+}
+
+.car-details h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  border-radius: 2px;
+}
+
+.car-details p {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #aaa;
+}
+
+.form-row {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-row input::placeholder {
+  color: #888;
+}
+
+.form-row input:focus {
+  outline: none;
+  border-color: #FFD700;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Personal Info Section */
+.personal-info {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.personal-info h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #FFD700;
+  text-align: center;
+  position: relative;
+}
+
+.personal-info h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  border-radius: 2px;
+}
+
+.personal-info input,
+.personal-info textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.personal-info input::placeholder,
+.personal-info textarea::placeholder {
+  color: #888;
+}
+
+.personal-info input:focus,
+.personal-info textarea:focus {
+  outline: none;
+  border-color: #FFD700;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.personal-info textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 1.2rem;
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(255, 215, 0, 0.4);
+  background: linear-gradient(135deg, #FFA500, #FFD700);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sell-car {
+    padding: 1rem;
+  }
+
+  .sell-car h1 {
+    font-size: 2.5rem;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .car-details,
+  .personal-info {
+    padding: 1.5rem;
+  }
+
+  .car-details h2,
+  .personal-info h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sell-car h1 {
+    font-size: 2rem;
+  }
+
+  .sell-car p {
+    font-size: 1rem;
+  }
+
+  .submit-btn {
+    padding: 1rem;
+    font-size: 1rem;
+    min-height: 44px; /* Touch-friendly */
+  }
+
+  .form-row input,
+  .car-details input,
+  .car-details textarea,
+  .personal-info input,
+  .personal-info textarea {
+    min-height: 44px; /* Touch-friendly */
+  }
+}
