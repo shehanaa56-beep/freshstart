@@ -6,7 +6,7 @@ const cars = [
     mileage: '15,000 km',
     fuel: 'Petrol',
     price: '$28,500',
-    imageUrl: '/images/c4.png',
+    imageUrl: '/images/c3.png',
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const cars = [
     mileage: '10,000 km',
     fuel: 'Petrol',
   price: '$27,800',
-  imageUrl: '/images/c12.png'
+  imageUrl: '/images/c1.png'
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const cars = [
     mileage: '5,000 km',
     fuel: 'Petrol',
     price: '$45,000',
-    imageUrl: '/images/c5.png'
+    imageUrl: '/images/c3.png'
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const cars = [
     mileage: '18,000 km',
     fuel: 'Diesel',
     price: '$55,200',
-    imageUrl: '/images/c6.png'
+    imageUrl: '/images/c1.png'
   },
    {
     id: 7,
@@ -60,7 +60,7 @@ const cars = [
     mileage: '18,000 km',
     fuel: 'Diesel',
     price: '$55,200',
-    imageUrl: '/images/c7.png'
+    imageUrl: '/images/c3.png'
   },
    {
     id: 8,
@@ -69,7 +69,7 @@ const cars = [
     mileage: '18,000 km',
     fuel: 'Diesel',
     price: '$55,200',
-    imageUrl: '/images/c8.png'
+    imageUrl: '/images/c1.png'
   },
    {
     id: 9,
@@ -78,7 +78,7 @@ const cars = [
     mileage: '18,000 km',
     fuel: 'Diesel',
     price: '$55,200',
-    imageUrl: '/images/c9.png'
+    imageUrl: '/images/c3.png'
   },
    {
     id: 10,
@@ -87,7 +87,7 @@ const cars = [
     mileage: '18,000 km',
     fuel: 'Diesel',
     price: '$55,200',
-    imageUrl: '/images/c10.png'
+    imageUrl: '/images/c1.png'
   },
    {
     id: 11,
@@ -96,7 +96,7 @@ const cars = [
     mileage: '18,000 km',
     fuel: 'Diesel',
     price: '$55,200',
-    imageUrl: '/images/c11.png'
+    imageUrl: '/images/c3.png'
   },
 ];
 
